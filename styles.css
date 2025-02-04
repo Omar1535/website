@@ -1,0 +1,11 @@
+nav{
+    background-color: aquamarine;
+   /* padding: 5px; */
+   margin: 50px;
+   
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
