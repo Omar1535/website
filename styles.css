@@ -1,11 +1,97 @@
-nav{
+nav {
     background-color: aquamarine;
-   /* padding: 5px; */
-   margin: 50px;
-   
+    padding: 5px;
+    display: flex;
+justify-content: space-between;
+justify-items: center;
 }
-nav ul{
+nav ul {
     list-style-type: none;
     display: flex;
-    gap: 40px;
+    gap: 50px;
+    margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+nav a:hover{
+    color: red;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+nav input{
+    height: 35px;
+    /* margin: ; */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+}
+
+/* Hero section styles */
+.hero{
+    height: 70vh;
+    background: url('https://previews.123rf.com/images/stockchairatgfx/stockchairatgfx1509/stockchairatgfx150900085/45872778-technological-vector-background-with-a-circuit-board-texture.jpg');
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 60px;
+    margin: 5px;
+}
+
+.hero p{
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+header .btn{
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+}
+
+header .btn:hover{
+    background-color: rgb(94, 54, 6);
+
+}
+
+/* About section  */
+.about{
+    margin-top: 50px;
+}
+
+.about-header{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: blueviolet;
+    font-family: "Open Sans";
+}
+
+.about-header:hover{
+    color: brown;
+}
+
+.about-description{
+    font-size: 20px;
+    color: chocolate;
+    font-family: "Meow Script";
+    text-align: center;
+    width: 900px;
+    margin: 0 auto 50px;
 }
