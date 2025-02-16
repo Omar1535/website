@@ -1,10 +1,11 @@
 nav {
-    background-color: aquamarine;
+    background-color: rgb(10, 230, 157);
     padding: 5px;
     display: flex;
-justify-content: space-between;
-justify-items: center;
+    justify-content: space-between;
+    justify-items: center;
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -12,21 +13,21 @@ nav ul {
     margin: auto;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     color: black;
 }
 
-nav a:hover{
+nav a:hover {
     color: red;
     background-color: blue;
     padding: 5px;
     border-radius: 14px;
 }
 
-nav input{
+nav input {
     height: 35px;
     /* margin: ; */
     margin-top: auto;
@@ -35,7 +36,7 @@ nav input{
 }
 
 /* Hero section styles */
-.hero{
+.hero {
     height: 70vh;
     background: url('https://previews.123rf.com/images/stockchairatgfx/stockchairatgfx1509/stockchairatgfx150900085/45872778-technological-vector-background-with-a-circuit-board-texture.jpg');
     /* background-color: chartreuse; */
@@ -45,17 +46,17 @@ nav input{
     text-align: center;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 60px;
     margin: 5px;
 }
 
-.hero p{
+.hero p {
     font-size: 25px;
     margin-bottom: 45px;
 }
 
-header .btn{
+header .btn {
     background-color: dodgerblue;
     padding: 10px 20px;
     font-size: 20px;
@@ -65,17 +66,17 @@ header .btn{
     font-weight: 600px;
 }
 
-header .btn:hover{
+header .btn:hover {
     background-color: rgb(94, 54, 6);
 
 }
 
 /* About section  */
-.about{
+.about {
     margin-top: 50px;
 }
 
-.about-header{
+.about-header {
     font-size: 45px;
     font-weight: 800;
     text-align: center;
@@ -83,15 +84,75 @@ header .btn:hover{
     font-family: "Open Sans";
 }
 
-.about-header:hover{
+.about-header:hover {
     color: brown;
 }
 
-.about-description{
+.about-description {
     font-size: 20px;
     color: chocolate;
     font-family: "Meow Script";
     text-align: center;
     width: 900px;
     margin: 0 auto 50px;
+}
+
+
+/* Input Section */
+.input-header {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: blueviolet;
+    font-family: "Open Sans";
+}
+
+.name{
+    font-size: 25px;
+}
+
+.name label{
+    font-weight: 700;
+    color: brown;
+}
+
+.name input{
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 5px;
+}
+
+/* Gallery Section */
+.gallery-header{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: blueviolet;
+    font-family: "Open Sans";
+}
+
+.gallery-content{
+    width: 400px;
+    margin: auto;
+}
+
+.gallery-content img {
+    width: 400px;
+    margin: 10px;
+}
+
+.gallery-content img:hover{
+    scale: 120%;
+}
+
+/* Footer Section */
+footer{
+    background-color: rgb(10, 230, 157);
+    color: aliceblue;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
 }

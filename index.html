@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>omar faruk</title>
+    <link rel="shortcut icon"
+        href="https://png.pngtree.com/png-vector/20191021/ourmid/pngtree-black-quill-feather-pen-with-writing-line-vector-logo-design-png-image_1840025.jpg">
 
     <!-- CSS Link-->
     <link rel="stylesheet" href="styles.css">
@@ -29,9 +31,9 @@
                 alt="">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#gallery">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <input type="text" placeholder="Search" name="" id="">
         </nav>
@@ -48,7 +50,7 @@
     </header>
     <main>
         <!-- About Section -->
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-content">
                 <h1 class="about-header">About</h1>
                 <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nesciunt
@@ -58,16 +60,51 @@
         </section>
 
         <!--Input Section -->
-        <section class="input">
-            <h1>Connect With Us</h1>
-            <div>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="">
+        <section class="input" id="contact">
+            <h1 class="input-header">Connect With Us</h1>
+            <div class="input-content">
+                <div class="name">
+                    <label for="name">Name:</label>
+
+                    <input type="text" name="name" id="">
+                </div>
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" name="email" id="">
+                </div>
+                <div class="massage">
+                    <label for="massage">Massage:</label>
+                    <br>
+                    <textarea name="massage" id=""></textarea>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h1 class="gallery-header">Gallery</h1>
+            <div class="gallery-content">
+                <img src="https://www.21kschool.com/us/wp-content/uploads/sites/37/2023/11/15-Facts-About-Coding-Every-Kid-Should-Know.png"
+                    alt="">
+                <img src="https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg" alt="">
             </div>
         </section>
     </main>
     <footer>
-
+        <hr>
+        <div class="footer-content">
+            <div>
+                <h1>CodesRaft</h1>
+                <p>Coding academy</p>
+            </div>
+            <div>
+                <h1>Quick Links</h1>
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+            </div>
+        </div>
     </footer>
 </body>
 
